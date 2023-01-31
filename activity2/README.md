@@ -16,25 +16,29 @@ Measuring the speed of an operation is also known as measuring its time complexi
 ## Task 1: Arrays
 
 Discuss in group whether the following statements are True or false.
+answer is All statements look true!
 
-- [ ] Reading from an array takes one step.
-- [ ] Searching an array of N elements takes up to N steps e.g. for an array of 5 elements, the maximum number of steps is 5. For an array of 500 elements, the maximum number would take is 500.
-- [ ] Insertion of an element in an array of length N, takes (N + 1) steps in worst-case scenario.
-- [ ] Deletion of an element from an array of length N, takes N steps in worst-case scenario.
+- [x] Reading from an array takes one step.
+- [x] Searching an array of N elements takes up to N steps e.g. for an array of 5 elements, the maximum number of steps is 5. For an array of 500 elements, the maximum number would take is 500.
+- [x] Insertion of an element in an array of length N, takes (N + 1) steps in worst-case scenario.
+- [x] Deletion of an element from an array of length N, takes N steps in worst-case scenario.
 
 ## Task 2: Sets
 
 Discuss in group whether the following statements are True or false.
 
-- [ ] Reading from an an array-based set takes one step.
-- [ ] Searching an array-based set of N elements takes up to N steps.
-- [ ] Insertion of an element in an array-based set of length N, takes (2N + 1) steps steps in worst-case scenario.
-- [ ] Deletion of an element from an array-based set of length N, takes N steps in worst-case scenario.
+- [x] Reading from an an array-based set takes one step.
+- [x] Searching an array-based set of N elements takes up to N steps.
+- [x] Insertion of an element in an array-based set of length N, takes (2N + 1) steps steps in worst-case scenario.
+- [x] Deletion of an element from an array-based set of length N, takes N steps in worst-case scenario.
 
 ## Taks 3
 
 - Array-based sets are arrays with one additional constraint of barring duplicates. How does this single Rule affect efficiency?
+  The answer: we can see that for array-based sets insertion is slower due to necesserity to check the duplicates before insertion of new element,
+  nevertheless in other cases effficiency is the same for arrays and array-based sets.
 - Should we avoid sets because insertion is slower for sets than regular arrays?
+  The answer: no, we should not avoid sets cause they can be useful for many other cases and working better than arrays in some cases.
 
 ## Reference
 
